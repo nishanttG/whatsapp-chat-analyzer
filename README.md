@@ -7,15 +7,15 @@ The project utilizes various open-source libraries and tools. See the requiremen
 To get a local copy of this project up and running, follow these steps:
 
 ### 1. Clone this repository to your local machine using the following command:
-```git clone https://github.com/nishanttg/whatsapp-chat-analyzer.git
+git clone https://github.com/nishanttg/whatsapp-chat-analyzer.git```
 
 ### 2. Navigate to the project directory:
-```cd WhatsAppChatAnalzyer
+cd WhatsAppChatAnalzyer```
 
 ### 3.Install the required dependencies:
-```pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 ### 4.Running the App:
-```streamlit run main.py
+```streamlit run main.py```
 
 This will start the app in the local environment
