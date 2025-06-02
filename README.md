@@ -23,9 +23,15 @@ cd whatsapp-chat-analyzer
 pip install -r requirements.txt
 ```
 
+
+https://whatsappp-chat-analytics.streamlit.app/
+
 4. **Running the App:**
 ```
 streamlit run main.py
 ```
 
 This will start the app in your local environment.
+
+# Demo
+`https://whatsappp-chat-analytics.streamlit.app/`
