@@ -3,11 +3,11 @@ The WhatsApp Chat Analyzer is designed to help you gain valuable insights from y
 
 The project utilizes various open-source libraries and tools. See the requirements.txt file for details.
 
-# Installation
+## Installation
 To get a local copy of this project up and running, follow these steps:
 
-1. Clone this repository to your local machine using the following command:
-git clone https://github.com/nishanttg/whatsapp-chat-analyzer.git
+### 1. Clone this repository to your local machine using the following command:
+``` git clone https://github.com/nishanttg/whatsapp-chat-analyzer.git
 
 2. Navigate to the project directory:
 cd WhatsAppChatAnalzyer
