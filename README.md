@@ -10,7 +10,7 @@ To get a local copy of this project up and running, follow these steps:
 
 1. **Clone this repository to your local machine:**
 
-git clone https://github.com/nishanttg/whatsapp-chat-analyzer.git
+```git clone https://github.com/nishanttg/whatsapp-chat-analyzer.git
 
 
 2. **Navigate to the project directory:**
