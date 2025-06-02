@@ -14,7 +14,7 @@ def preprocess(data):
     df = pd.DataFrame({'user_message': messages, 'message_date': dates})
     # convert message_date type
     df['message_date'] = pd.to_datetime(
-        df['message_date'].str.replace('\u202f', ' '),
+        df['message_date'].astype(str).str.replace('\u202f', ' '),
         format='%m/%d/%y, %I:%M %p'
     )
 
