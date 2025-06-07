@@ -45,7 +45,8 @@ def preprocess(data):
     df.drop(columns=['user_message'], inplace=True)
 
     # Clean message text
-    df['message'] = df['message'].str.strip().str.lower()
+    # Clean message text safely
+    df['message'] = df['message'].fillna('').str.strip().str.lower()
 
     # Normalize media messages
     df['message'] = df['message'].replace(
